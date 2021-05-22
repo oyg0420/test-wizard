@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/test-wizard/static/js/main.d9a62267.chunk.js",
+    "main.js.map": "/test-wizard/static/js/main.d9a62267.chunk.js.map",
+    "runtime-main.js": "/test-wizard/static/js/runtime-main.40ef6cdd.js",
+    "runtime-main.js.map": "/test-wizard/static/js/runtime-main.40ef6cdd.js.map",
+    "static/js/2.5b13c612.chunk.js": "/test-wizard/static/js/2.5b13c612.chunk.js",
+    "static/js/2.5b13c612.chunk.js.map": "/test-wizard/static/js/2.5b13c612.chunk.js.map",
+    "index.html": "/test-wizard/index.html",
+    "static/js/2.5b13c612.chunk.js.LICENSE.txt": "/test-wizard/static/js/2.5b13c612.chunk.js.LICENSE.txt",
+    "static/media/image-1.f0e2c5a8.png": "/test-wizard/static/media/image-1.f0e2c5a8.png",
+    "static/media/image-2.f511a4a7.png": "/test-wizard/static/media/image-2.f511a4a7.png",
+    "static/media/image-3.930c0716.png": "/test-wizard/static/media/image-3.930c0716.png",
+    "static/media/image-4.ef4d3f89.png": "/test-wizard/static/media/image-4.ef4d3f89.png",
+    "static/media/image-5.4504a2eb.png": "/test-wizard/static/media/image-5.4504a2eb.png",
+    "static/media/image-6.f118f292.png": "/test-wizard/static/media/image-6.f118f292.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40ef6cdd.js",
+    "static/js/2.5b13c612.chunk.js",
+    "static/js/main.d9a62267.chunk.js"
+  ]
+}
