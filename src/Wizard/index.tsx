@@ -2,10 +2,11 @@ import React, { ReactNode, useCallback, useEffect, useMemo, useState } from 'rea
 import { WizardContext } from './WizardContext';
 
 type Props = {
-  onStepChange(): void;
+  onStepChange?(): void;
+  currentStep?: number;
 };
 
-export const Wizard: React.FC<Props> = ({ onStepChange, children }) => {
+export const Wizard: React.FC<Props> = ({ currentStep, onStepChange, children }) => {
   const [step, setStep] = useState(0);
   const [totalStep, setTotalStep] = useState(0);
   const [childNodes, setChildNodes] = useState<ReactNode[]>([]);
@@ -20,8 +21,7 @@ export const Wizard: React.FC<Props> = ({ onStepChange, children }) => {
   }, [step, isFirstStep]);
 
   const handleNextButtonClick = useCallback(() => {
-    console.log(step);
-    if (isLastStep) {
+    if (isLastStep && onStepChange) {
       onStepChange();
     } else {
       setStep(step + 1);
@@ -41,6 +41,12 @@ export const Wizard: React.FC<Props> = ({ onStepChange, children }) => {
   useEffect(() => {
     setCurrentChildNode(childNodes[step]);
   }, [childNodes, step]);
+
+  useEffect(() => {
+    if (currentStep !== undefined) {
+      setStep(currentStep);
+    }
+  }, [currentStep]);
 
   return (
     <>
