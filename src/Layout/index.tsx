@@ -54,9 +54,4 @@ export const PageButton = styled.button<{ selected?: boolean }>`
   line-height: 1.5;
   font-weight: 600;
   transform: skew(-0.001deg);
-
-  :hover {
-    background: #ff4e68;
-    color: #fff;
-  }
 `;
