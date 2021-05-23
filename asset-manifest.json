@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/test-wizard/static/js/main.d9a62267.chunk.js",
-    "main.js.map": "/test-wizard/static/js/main.d9a62267.chunk.js.map",
+    "main.js": "/test-wizard/static/js/main.4762a2cd.chunk.js",
+    "main.js.map": "/test-wizard/static/js/main.4762a2cd.chunk.js.map",
     "runtime-main.js": "/test-wizard/static/js/runtime-main.40ef6cdd.js",
     "runtime-main.js.map": "/test-wizard/static/js/runtime-main.40ef6cdd.js.map",
     "static/js/2.5b13c612.chunk.js": "/test-wizard/static/js/2.5b13c612.chunk.js",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime-main.40ef6cdd.js",
     "static/js/2.5b13c612.chunk.js",
-    "static/js/main.d9a62267.chunk.js"
+    "static/js/main.4762a2cd.chunk.js"
   ]
 }
